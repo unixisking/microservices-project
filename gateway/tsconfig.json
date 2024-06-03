@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "rootDirs": ["src"],
+    "outDir": "build",
+    "lib": ["es2020"],
+    "target": "es2020",
+    "module": "esnext",
+    "forceConsistentCasingInFileNames": true,            
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "types": ["node"]
+  }
+}
