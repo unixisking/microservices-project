@@ -7,7 +7,7 @@ const resolvers = {
     validateToken: () => {},
   },
   Mutation: {
-    login: async (_, args) => {
+    login: async (_: any, args: {username: string, password:  string}) => {
       const { username, password } = args
       try {
         const grant = await keycloak.grantManager.obtainDirectly(
